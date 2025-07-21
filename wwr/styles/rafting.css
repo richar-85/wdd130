@@ -4,9 +4,21 @@
     --accent1-color: #BCAB79;
     --accent2-color: #BD4F6C;
 
-    --heading-font: "Roboto", sans-serif;
-    --body-font: "Barlow" sans-serif;
+    --heading-font: "Bebas Neue", sans-serif;
+    --body-font: "Michroma", sans-serif;
 }
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.michroma-regular {
+  font-family: "Michroma", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 * {
     margin: 0;
     padding: 0;
