@@ -1,0 +1,132 @@
+:root {
+    --primary-color: #004e89;
+    --secondary-color: #00a8e8;
+    --accent1-color: #fcd581;
+    --accent2-color: #ffffff;
+
+    --heading-font: 'Oswald', sans-serif;
+    --body-font: 'Roboto', sans-serif;
+
+    --text-color: #333333;
+    --background-color: #f4f4f4;
+}
+
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--body-font);
+    color: var(--text-color);
+    background-color: var(--background-color);
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header */
+header {
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.logo {
+    height: 60px;
+}
+
+nav a {
+    color: var(--accent2-color);
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+/* Main Content */
+.hero {
+    position: relative;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    color: var(--accent2-color);
+    font-family: var(--heading-font);
+    font-size: 3rem;
+    text-shadow: 2px 2px 4px #000;
+}
+
+.hero article {
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    background-color: rgba(255,255,255,0.85);
+    padding: 1rem;
+    max-width: 400px;
+    border-radius: 8px;
+}
+
+.hero article img {
+    float: right;
+    width: 120px;
+    margin-left: 1rem;
+    border-radius: 6px;
+}
+
+section {
+    padding: 2rem 1rem;
+}
+
+section h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+section p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+section img {
+    width: 180px;
+    height: auto;
+    margin: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+footer nav.socialmedia a {
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+footer nav.socialmedia img {
+    width: 30px;
+    height: 30px;
+}
+
+/* Utility Styles */
+nav, section, article, p {
+    margin-bottom: 1rem;
+    padding: 0 1rem;
+}
