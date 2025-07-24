@@ -71,3 +71,11 @@ h1 {
     float: right;
     width: 125px;
 }
+
+.hero article {
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    background-color: var(--accent2-color);
+    color:#fff
+}
