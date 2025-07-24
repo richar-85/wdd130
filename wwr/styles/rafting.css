@@ -43,6 +43,10 @@ footer nav.socialmedia a {
     margin: 0 10px;
     text-decoration: none;
 }
+footer nav.socialmedia img {
+    width: 30px;
+    height: 30px;
+}
 
 .hero {
     position: relative;
