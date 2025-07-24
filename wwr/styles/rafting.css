@@ -39,7 +39,8 @@ nav, p, section, article {
     padding: 8px;
 }
 
-.socialmedia a {
+footer nav.socialmedia a {
+    margin: 0 10px;
     text-decoration: none;
 }
 
