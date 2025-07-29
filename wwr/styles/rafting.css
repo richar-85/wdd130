@@ -41,7 +41,22 @@ header h1{
     font-family: var(--heading-font);
     font-size: 1.5rem;
 }
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    padding: 0;
+}
 
+h1, h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+nav, p, section, article {
+    margin: 16px;
+    padding: 8px;
+}
 
 .nav a {
     color: white;
