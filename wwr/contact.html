@@ -17,7 +17,7 @@
 
         <header>
             <img src="images/wwr-logo.png" alt="Rafting Company Logo" class="logo">
-            <h1></h1>
+            <h1>wwr</h1>
             <nav>
                 <ul class="nav">
                     <li><a href="index.html">Home</a></li>
@@ -63,23 +63,22 @@
             </section>
 
             <section class="contacts">
+                <h2>Send Us A Message</h2>
                 <form action="#" method="post">
                     <label for="name">Full Name:</label><br />
                     <input type="text" id="name" name="name" required /><br />
 
-                    <label for="email">Email:</label><br />
-                    <input type="email" id="email" name="email" required /><br />
                     <fieldset>
                         <p>Purpose of Contact:</p>
-                        <label><input type="radio" name="purpose" value="general" required /> General Inquiry</label><br />
-                        <label><input type="radio" name="purpose" value="reservation" required /> Reservation Question</label><br />
-                        <label><input type="radio" name="purpose" value="suggestion" required /> Website Suggestion</label><br />
+                        <label for="general"><input type="radio" name="purpose" value="general" required /> General Inquiry</label><br />
+                        <label for="reservation"><input type="radio" name="purpose" value="reservation" required /> Reservation Question</label><br />
+                        <label for="suggestion"><input type="radio" name="purpose" value="suggestion" required /> Website Suggestion</label><br />
                     </fieldset>
 
                     <label for="message">Message:</label><br />
                     <textarea id="message" name="message" rows="5" required></textarea><br />
 
-                    <label><input type="checkbox" name="subscribe" /> Please subscribe me to the monthly newsletter</label><br /><br />
+                    <label><input type="checkbox" id="subscribe" name="subscribe" /> Please subscribe me to the monthly newsletter</label><br /><br />
 
                     <button type="submit">Send Message</button>
                 </form>
