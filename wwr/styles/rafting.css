@@ -91,7 +91,7 @@ nav, p, section, article {
     width: 100%;
     padding: 16px;
     text-align: center;
-    opacity: 0.9;
+    opacity: 0.95;
     color: var(--light-text);
     background-color: var(--accent2-color);
 }
@@ -106,7 +106,7 @@ nav, p, section, article {
     bottom: 10%;
     left: 10%;
     text-align: left; 
-    opacity: 0.9;
+    opacity: 0.95;
     color: var(--light-text);
     background-color: var(--accent2-color);
 }
