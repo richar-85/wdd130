@@ -14,6 +14,7 @@
     </head>
 
     <body>
+
         <header>
             <img src="images/wwr-logo.png" alt="Rafting Company Logo" class="logo">
             <h1></h1>
@@ -30,15 +31,15 @@
         <main>
             <section class="contactInfo">
                 <h2> Contact Us</h2>
-                <p>Address: White Water Rafting</p>
-                <p>Phone: (999) 999-9999</p>
-                <p>Email: whitewaterrafting.com</p>
+                <p><strong>Address:</strong> White Water Rafting</p>
+                <p><strong>Phone:</strong> (999) 999-9999</p>
+                <p><strong>Email:</strong> whitewaterrafting@info.com</p>
                 
-                <div class="map">
+                <section class="map">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d6909.531313156917!2d-112.24523605957398!3d43.27027960349772!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1753948445473!5m2!1sen!2sus" 
                     width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
                     </iframe>
-                </div>
+                </section>
             </section>
             
             <section class="employees">
@@ -65,12 +66,13 @@
                 <form action="#" method="post">
                     <label for="name">Full Name:</label><br />
                     <input type="email" id="email" name="email" required /><br />
-
-                    <p>Purpose of Contact:</p>
-                    <label><input type="radio" name="purpose" value="general" required /> General Inquiry</label><br />
-                    <label><input type="radio" name="purpose" value="reservation" required /> Reservation Question</label><br />
-                    <label><input type="radio" name="purpose" value="suggestion" required /> Website Suggestion</label><br />
-
+                    <fielsset>
+                        <p>Purpose of Contact:</p>
+                        <label><input type="radio" name="purpose" value="general" required /> General Inquiry</label><br />
+                        <label><input type="radio" name="purpose" value="reservation" required /> Reservation Question</label><br />
+                        <label><input type="radio" name="purpose" value="suggestion" required /> Website Suggestion</label><br />
+                    </fielsset>
+                    
                     <label for="message">Message:</label><br />
                     <textarea id="message" name="message" rows="5" required></textarea><br />
 
