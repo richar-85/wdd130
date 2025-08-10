@@ -99,16 +99,20 @@ nav, p, section, article {
     float: right;
     width: 250px;
     margin-left: 1rem;
+    border-radius: 6px;
 }
 
 .hero article {
     position: absolute;
     bottom: 10%;
-    left: 10%;
+    left: 5%;
     text-align: left; 
     opacity: 0.95;
     color: var(--light-text);
     background-color: var(--accent2-color);
+    padding: 1rem;
+    border-radius: 8px;
+    right: 5%;
 }
 
 .history {
@@ -317,9 +321,6 @@ main section {
 .contact button:hover {
     background-color: var(--hover-color);
 }
-
-
-
 
 
 
